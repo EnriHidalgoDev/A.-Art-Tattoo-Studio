@@ -1,7 +1,6 @@
 body {
     background: #080A1D;
     font-family: 'Arial', sans-serif;
-    color: #FFFFFF;
     margin: 0;
 }
 
@@ -41,13 +40,18 @@ main img {
     border-radius: 15px;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0.5rem 0 0 0;
 }
-footer p a{
+.footer__link{
     cursor: pointer;
+    color: #FFFFFF;
+}
+.footer_text {
+    cursor: pointer;
+    color: #FFFFFF;
 }
