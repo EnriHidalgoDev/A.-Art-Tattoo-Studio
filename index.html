@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>A. ART TATTOO STUDIO</title>
         <meta name="description" content="Descubre un mundo de arte en la piel. Ofrecemos diseños personalizados y un ambiente profesional y acogedor para que tu experiencia de tatuaje sea inolvidable.">
@@ -10,14 +10,17 @@
         <meta property="og:image" content="logos/logo_studio.png">
         <meta property="og:url" content=https://a-art-tattoo-studio.vercel.app/>
         <link rel="icon" href="logos/" type="image/png">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="flex.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/display.css" type="text/css" media="all">
+        <link rel="stylesheet" href="styles/media-queries.css" type="text/css" media="all">
         <meta name="author" content="EnriHidalgo">
     </head>
     <body>
+        
+        <!-- Encabezado de la página -->
         <header>
             <div class="bg-logo">
-                <img class="bg-logo__logo-prim" src="logos/logo_studio.png" alt="Logo del A. ART TATTOO STUDIO" title="Logo del estudio">
+                <img class="bg-logo__logo-prim" src="assets/logos/studio-logo.png" alt="Logo de A. ART TATTOO STUDIO" title="Logo del estudio">
             </div>
             <div class="bg-title">
                 <h1>A. ART TATTOO STUDIO</h1>
@@ -25,23 +28,25 @@
             <div class="bg-location">
                 <p class="bg_location__text-place">Habana, Arroyo Naranjo •</p>
                 <a class="bg_location__link-place" href="https://maps.app.goo.gl/MVRTb68SiNYXmMK59" target="_blank"> ver mapa</a>
-                <img class="bg_location__img-place" src="logos/logo_gps.png" alt="Ícono de ubicación" title="gps">
+                <img class="bg_location__img-place" src="assets/icons/gps-icon.png" alt="Ícono de ubicación" title="gps">
             </div>
             <div class="red-social">
                 <div class="red-social__link-face">
                     <a href="https://www.facebook.com/aarttattoostudio" target="_blank">
-                        <img class="red-social__img" src="logos/facebook_icon.png" alt="Facebook del estudio"></a>
+                        <img class="red-social__img" src="assets/logos/facebook-logo.png" alt="Facebook del estudio"></a>
                 </div>
                 <div class="red-social__link-wa">
                     <a href="https://wa.me/+5356075059" target="_blank">
-                        <img class="red-social__img" src="logos/whatsapp_icon.png" alt="Whatsapp del estudio"></a>
+                        <img class="red-social__img" src="assets/logos/whatsapp-logo.png" alt="Whatsapp del estudio"></a>
                 </div>
                 <div class="red-social__link-insta">
                     <a href="https://www.instagram.com/a.art.tattoostudio?igsh=MTNxZ3RjYzZpZDJldw==" target="_blank">
-                        <img class="red-social__img" src="logos/instagram_icon.png" alt="Instagram del estudio"></a>
+                        <img class="red-social__img" src="assets/logos/instagram-logo.png" alt="Instagram del estudio"></a>
                 </div>
             </div>
         </header>
+        
+        <!-- Sección de contenido principal -->
         <main>
             <div class="bg-title-studio">
                 <h2 class="bg-title-studio__subtitle">Detalles del Estudio</h2>
@@ -57,30 +62,28 @@
                 </p>
             </aside>
             
-            <div class="separation">
-            </div>
-            
+            <div class="separation"></div>
             <section class="payment-method">
                 <h2 class="payment-method__subtitle">Métodos de pago</h2>
             </section>
             <section class="bg-payment-method">
                 <div class="bg-img">
                     <div class="bg-mlc">
-                        <img class="bg-mlc__mlc" src="met_pago/mlc.png">
+                        <img class="bg-mlc__mlc" src="assets/payment-methods/mlc.png">
                         <p class="bg-img__text">MLC</p>
                     </div>
                     <div class="bg-usd">
-                        <img class="bg-usd__usd" src="met_pago/usd.png">
+                        <img class="bg-usd__usd" src="assets/payment-methods/usd.png">
                         <p class="bg-img__text">USD</p>
                     </div>
                     <div class="bg-cup">
-                        <img class="bg-cup__img" src="met_pago/cup.png">
+                        <img class="bg-cup__img" src="assets/payment-methods/cup.png">
                         <p class="bg-img__text">CUP</p>
                     </div>
                 </div>
                 <div class="bg-efectivo-sup">
                     <div class="bg-efectivo">
-                        <img class="bg-efectivo__img" src="met_pago/efectivo.png">
+                        <img class="bg-efectivo__img" src="assets/payment-methods/efectivo.png">
                         <p class="bg-efectivo__text">EFECTIVO</p>
                     </div>
                 </div>
@@ -92,20 +95,16 @@
                     </div>
                 </div>
             </section>
-            <div class="separation">
-                
-            </div>
+            <div class="separation"></div>
             <section class="bg-offers-sup">
                 <div class="bg-offers-text">
                     <h2 class="bg-offers-text__subtitle">Ofertas</h2>
                 </div>
                 <div class="bg_offers-img">
-                    <img class="bg_offers-img__img" src="logos/offers.png" alt="4 ofertas" title="ofertas">
+                    <img class="bg_offers-img__img" src="assets/offers/offers-img.png" alt="Ofertas" title="ofertas">
                 </div>
             </section>
-            <div class="separation">
-                
-            </div>
+            <div class="separation"></div>
             <aside class="bg-style-sup">
                 <div class="bg-style-text">
                     <h2 class="bg-style-text__subtitle">Estilos de tatuajes</h2>
@@ -120,12 +119,10 @@
                     <img class="bg-style-img__img" src="tattoo_style/suminagashi.jpg" alt="Estilo minimalist">
                 </div>
                 <div class="bg-ver-mas-style">
-                    <p class="bg-ver-mas-style__text"><a class="bg-ver-mas-style__link" href="sub_webs/estilos.html">Ver mas</a></p>
+                    <p class="bg-ver-mas-style__text"><a class="bg-ver-mas-style__link" href="pages/estilos.html">Ver mas</a></p>
                 </div>
             </aside>
-            <div class="separation">
-                
-            </div>
+            <div class="separation"></div>
             <aside>
                 <div class="bg-created-subtitle">
                     <h2 class="bg-created-subtitle__subtitle">Tatuajes de A. Art</h2>
@@ -140,12 +137,10 @@
                     <img class="bg-created-img__img" src="tattoo_echos/cuervo.jpg" alt="cuervo">
                 </div>
                 <div class="bg-ver-mas-created">
-                    <p class="bg-ver-mas-created__text"><a class="bg-ver-mas-created__link" href="sub_webs/echos.html">Ver mas</a></p>
+                    <p class="bg-ver-mas-created__text"><a class="bg-ver-mas-created__link" href="pages/echos.html">Ver mas</a></p>
                 </div>
             </aside>
-            <div class="separation">
-                
-            </div>
+            <div class="separation"></div>
             <aside>
                 <div class="bg-ideas-subtitle">
                     <h2 class="bg-ideas-subtitulo__subtitle">Galería De Ideas</h2>
@@ -160,11 +155,12 @@
                     <img class="bg-ideas-img__img" src="ideas/ataud_ojo.jpg">
                 </div>
                 <div class="bg-ver-mas-ideas">
-                    <p class="bg-ver-mas-ideas__text"><a class="bg-ver-mas-ideas__link" href="sub_webs/ideas.html">Ver mas</a></p>
+                    <p class="bg-ver-mas-ideas__text"><a class="bg-ver-mas-ideas__link" href="pages/ideas.html">Ver mas</a></p>
                 </div>
             </aside>
         </main>
         
+        <!-- Pie de la página -->
         <footer class="footer">
             <div class="bg-footer">
                 <h3>A. ART TATTOO STUDIO</h3>
