@@ -1,7 +1,7 @@
 # A. Art Tattoo Studio
 
 ## Descripción
-A. Art Tattoo Studio es un proyecto comercial sobre un estudio de tatuajes. Este repositorio contiene el código fuente del proyecto, que se encuentra bajo la licencia GNU General Public License v3.0.
+- A. Art Tattoo Studio es un proyecto comercial sobre un estudio de tatuajes. Este repositorio contiene el código fuente del proyecto, que se encuentra bajo la licencia GNU General Public License v3.0.
 
 ### Características
 - Diseño responsive 
