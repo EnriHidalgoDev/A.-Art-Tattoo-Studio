@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header nav ul li {
+            margin-right: 20px;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        
+        h2 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Usuarios</a></li>
+                <li><a href="#">Configuración</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Bienvenido al Panel de Administración</h1>
+            <p>Aquí puedes gestionar tus usuarios, configurar tus opciones y más.</p>
+        </section>
+        <section>
+            <h2>Estadísticas</h2>
+            <ul>
+                <li>Usuarios registrados: 100</li>
+                <li>Visitas hoy: 50</li>
+                <li>Mensajes enviados: 200</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Panel de Administración</p>
+    </footer>
+</body>
+</html>
